@@ -1,48 +1,51 @@
 # html-file
 <!DOCTYPE html>
 <html lang="en">
- 
-</html>
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content"IE=edge">
-  <meta name="viewport" content="width=device-widhth,intial-scale=1"
-<title> calculator - by code traversal</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div  class="calculator">
-    <div input type="text" placeholder="0">
-    <div>
-      <button>AC
-           <button>DEL
-             <button>%
-                <button>/
-            
-            
-      </div>
-               <button>7
-           <button>8
-             <button>9
-                <button>*
-               </button>
-               <div>
-                 <button>4
-           <button>5
-             <button>6
-                <button>-
-               </button>
-                 <div>
-                   <button>1
-           <button>2
-             <button>3
-             <button>+
-               </button>
-               <div>
-                 <button>00
-           <button>0
-             <button>.
-                <button>=
-            
-            
-            
+
+    <div class="calculator">
+        <input type="text" id="inputBox" placeholder="0" readonly>
+        
+        <div>
+            <button class="operator">AC</button>
+            <button class="operator">DEL</button>
+            <button class="operator">%</button>
+            <button class="operator">/</button>
+        </div>
+        <div>
+            <button>7</button>
+            <button>8</button>
+            <button>9</button>
+            <button class="operator">*</button>
+        </div>
+        <div>
+            <button>4</button>
+            <button>5</button>
+            <button>6</button>
+            <button class="operator">-</button>
+        </div>
+        <div>
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button class="operator">+</button>
+        </div>
+        <div>
+            <button>00</button>
+            <button>0</button>
+            <button>.</button>
+            <button class="equalBtn">=</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
 </html>
+
+
